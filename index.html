@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./velot.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0
+   ,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./velot.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./velot.css">
+    <title>VELOT</title>
+    <link rel="icon" href="./assets/svgs/logo.svg" type="image/svg+xml">
+</head>
+
+<body class="scroll-smooth">
+
+    <div class="main w-[90%] max-w-[1440px] font-[Poppins] mx-auto p-[10px]">
+        <nav id="nav" class="flex p-[20px] items-center justify-between">
+            <div class="logo flex">
+                <img src="./assets/svgs/logo.svg" alt="Velot-logo" class="pr-[5px]">
+                <h1
+                    class="max-w-[52px] font-[Poppins] font-[500] text-[10px]/[10px] text-[#000000] border-l border-l-[#000000] px-[5px]">
+                    VELOT MECHANICAL FACTORY
+                </h1>
+            </div>
+
+            <ul class="nav-links flex items-center gap-[23px]">
+                <li class="p-[10px]"><a href="#" class="active text-[#232323] font-[500] text-[16px]/[24px]">Home</a>
+                </li>
+                <li class="p-[10px]"><a href="#services"
+                        class="text-[#232323] font-[500] text-[16px]/[24px]">Services</a>
+                </li>
+                <li class="p-[10px]"><a href="#" class="flex items-center gap-[5px] ">
+                        <span class="text-[#232323] font-[500] text-[16px]/[24px]">Projects</span>
+                        <img src="../figma-ass/assets/svgs/vector.svg" alt="projects" class="">
+                    </a></li>
+                <li class="p-[10px]"><a href="#" class="flex items-center gap-[5px]"><span
+                            class=" text-[#232323] font-[500] text-[16px]/[24px]">Products</span>
+                        <img src="../figma-ass/assets/svgs/vector.svg" alt="products" class="">
+                    </a></li>
+                <li class="p-[10px]"><a href="#" class="text-[#232323] font-[500] text-[16px]/[24px]">Contact
+                        Us</a></li>
+                <li class="p-[10px] text-[#232323] rounded-[4px]"><a href="#" class="">
+                        <img src="./assets/svgs/search.svg" alt="search-icon" class="">
+                    </a></li>
+            </ul>
+            <div id="navbar" class="navbar p-[10px] hidden">
+                <img src="./assets/svgs/bar.svg" alt="bar" class="w-[30px] h-[30px]">
+            </div>
+        </nav>
+
+        <section id="hero" class="flex items-center justify-between mt-[66px] gap-max-custom">
+            <div class="hero-box1 flex flex-col gap-[50px]">
+                <div class="hero-welcome py-[10px] px-[36px] rounded-[1px] bg-[#232323] w-[fit-content]">
+                    <p class="font-[Poppins] font-[700] text-[16px]/[24px] text-[#FFFFFF]">
+                        WELCOME TO VELOT FACTORY
+                    </p>
+                </div>
+
+                <div id="hero-content" class="flex flex-col gap-[32px]">
+                    <div id="hero-content-text" class="">
+                        <h1 id="hero-content-title" class="font-[600] text-[52px]/[78px] text-[#232323] max-w-[625px]">
+                            High-Performance Engineering for All Your Mechanical Needs</h1>
+                    </div>
+                    <p id="hero-content-subtitle" class="font-[500] text-[16px]/[24px] text-[#000000] max-w-[491px]">
+                        At Velot, we deliver top-tier engineering solutions for all your
+                        mechanical needs. Trust our expertise and commitment
+                        to quality for exceptional results in every project.
+                    </p>
+                    <button class="hero-btn rounded-[1px] py-[10px] px-[15px] bg-[#232323] w-[142px] flex items-center">
+                        <span class="font-[800] text-[16px]/[24px] text-[#FFFFFF]">Read More</span>
+                        <img src="./assets/svgs/arrow-right.svg" alt="">
+                    </button>
+                </div>
+
+            </div>
+            <div class="hero-box2">
+                <img src="./assets/imgs/hero-img.png" alt="hero-img" class="hero-img w-[518px] h-[898px]">
+            </div>
+        </section>
+
+        <section id="status" class="bg-[#000] ">
+            <div class="status-content bg-[url(./assets/imgs/status-bg.png)] p-[20px]">
+                <div id="status-cards" class="flex flex-wrap justify-center gap-[43px]">
+                    <div
+                        class="status-card max-w-[395px] border-r border-r-[#FBF8F3] pr-[27px] pb-[9px] flex flex-col gap-[52px]">
+                        <div class="status-card-title flex items-center gap-[38px] w-[fit-content]">
+                            <span class="font-[500] text-[28px]/[42px] text-[#fff]">01</span>
+                            <h1 class="font-[600] text-[28px]/[42px] text-[#fff]">Quality Materials</h1>
+                        </div>
+                        <p class="status-card-subtitle font-[600] text-[16px]/[26px] text-[#fff]">
+                            We ensure your home's solid structure by
+                            selecting and using the best construction
+                            materials, known for their superior properties
+                            and durability.
+                        </p>
+                    </div>
+                    <div
+                        class="status-card max-w-[401px] border-r border-r-[#FBF8F3] pr-[27px] flex flex-col gap-[36px]">
+                        <div class="status-card-title flex items-center gap-[38px] w-[fit-content]">
+                            <span class="font-[500] text-[28px]/[42px] text-[#fff]">02</span>
+                            <h1 class="font-[600] text-[28px]/[42px] text-[#fff]">Experienced Team</h1>
+                        </div>
+                        <p class="status-card-subtitle font-[600] text-[16px]/[26px] text-[#fff]">
+                            With over 15 years of experience, we partner
+                            with owners and design professionals to build
+                            high-quality projects. Our company understands
+                            the importance of collaboration and excellence
+                            in every endeavor.
+                        </p>
+                    </div>
+                    <div class="status-card max-w-[432px] flex flex-col gap-[36px]">
+                        <div class="status-card-title flex items-center gap-[38px] w-[fit-content]">
+                            <span class="font-[500] text-[28px]/[42px] text-[#fff]">03</span>
+                            <h1 class="font-[600] text-[28px]/[42px] text-[#fff]">Unique Technologies</h1>
+                        </div>
+                        <p class="status-card-subtitle font-[500] text-[16px]/[26px] text-[#fff]">
+                            With over 15 years of experience, we partner
+                            with owners and design professionals to build
+                            high-quality projects. Our company understands
+                            the importance of collaboration and excellence
+                            in every endeavor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="services" class="mt-[185px] flex flex-col gap-[88px] ">
+            <!-- <img src="./assets/imgs/velot-Background.png" alt=""> -->
+            <div class="service-text flex flex-col gap-[49px]">
+                <h1 class="service-title font-[600] text-[47px]/[70.5px] text-center text-[#000000]">
+                    Our Services
+                </h1>
+                <p
+                    class="service-subtitle font-[500] text-[24px]/[36px] text-center text-[rgba(35,35,35,0.72)] max-w-[923px] mx-auto">
+                    Discover our top-tier services designed for you. We specialize in operational
+                    change management and optimizing workflows.
+                </p>
+            </div>
+
+            <div
+                class="service-cards bg-[url('./assets/imgs/velot-Background.png')] bg-left flex flex-wrap justify-center gap-[52px] max-w-[1240px] mx-auto">
+                <!-- first card -->
+                <div
+                    class="card max-w-[376px] bg-[#fff] rounded-[1px] border border-[rgba(35,35,35,0.09)] pt-[45px] pb-[39px] px-[25px] flex flex-col gap-[66px] shadow-service-card ">
+                    <div class="card-content flex flex-col gap-[32px] max-w-[326px]">
+                        <h2 class="flex gap-[13px] items-center">
+                            <img src="./assets/svgs/repair.svg" alt="maintain and repair">
+                            <span class="font-[600] text-[18px]/[27px] text-[#232323]">Maintenance And Repair</span>
+                        </h2>
+                        <p class="font-[500] text-[16px]/[26px] text-[#000000] max-w-[326px]">
+                            Keep your equipment running smoothly
+                            with our expert maintenance and repair
+                            services. Quick fixes, minimal downtime!
+                        </p>
+                    </div>
+                    <button class="card-btn w-[108px] border-b border-b-[#232323] flex items-center gap-[5px]">
+                        <span class="font-[600] text-[16px]/[26px] text-[#000000]">Read More</span>
+                        <img src="./assets/svgs/forward-arrow.svg" alt="read-more">
+                    </button>
+                </div>
+                <!-- 2nd card -->
+                <div
+                    class="card max-w-[376px] bg-[#fff] rounded-[1px] border border-[rgba(35,35,35,0.09)] pt-[45px] pb-[39px] px-[25px] flex flex-col gap-[66px] shadow-service-card ">
+                    <div class="card-content flex flex-col gap-[32px] max-w-[326px]">
+                        <h2 class="flex gap-[13px] items-center">
+                            <img src="./assets/svgs/welding.svg" alt="Welding and Fabrication">
+                            <span class="font-[600] text-[18px]/[27px] text-[#232323]">Welding and Fabrication</span>
+                        </h2>
+                        <p class="font-[500] text-[16px]/[26px] text-[#000000] max-w-[330px]">
+                            Expert welding and fabrication services
+                            for precise and durable metal structures.
+                            Custom solutions crafted to meet your
+                            specific needs.
+                        </p>
+                    </div>
+                    <button class="card-btn w-[108px] border-b border-b-[#232323] flex items-center gap-[5px]">
+                        <span class="font-[600] text-[16px]/[26px] text-[#000000]">Read More</span>
+                        <img src="./assets/svgs/forward-arrow.svg" alt="read-more">
+                    </button>
+                </div>
+                <!-- 3rd card -->
+                <div
+                    class="card max-w-[376px] bg-[#fff] rounded-[1px] border border-[rgba(35,35,35,0.09)] pt-[45px] pb-[39px] px-[25px] flex flex-col gap-[66px] shadow-service-card ">
+                    <div class="card-content flex flex-col gap-[32px] max-w-[326px]">
+                        <h2 class="flex gap-[13px] items-center">
+                            <img src="./assets/svgs/welding.svg" alt="Gear Manufacturing">
+                            <span class="font-[600] text-[18px]/[27px] text-[#232323]">Gear Manufacturing</span>
+                        </h2>
+                        <p class="font-[500] text-[16px]/[26px] text-[#000000] max-w-[330px]">
+                            Expert welding and fabrication services
+                            for precise and durable metal structures.
+                            Custom solutions crafted to meet your
+                            specific needs.
+                        </p>
+                    </div>
+                    <button class="card-btn w-[108px] border-b border-b-[#232323] flex items-center gap-[5px]">
+                        <span class="font-[600] text-[16px]/[26px] text-[#000000]">Read More</span>
+                        <img src="./assets/svgs/forward-arrow.svg" alt="read-more">
+                    </button>
+                </div>
+                <!-- 4th card -->
+                <div
+                    class="card max-w-[376px] bg-[#fff] rounded-[1px] border border-[rgba(35,35,35,0.09)] pt-[45px] pb-[39px] px-[25px] flex flex-col gap-[66px] shadow-service-card ">
+                    <div class="card-content flex flex-col gap-[32px] max-w-[326px]">
+                        <h2 class="flex gap-[13px] items-center">
+                            <img src="./assets/svgs/repair.svg" alt="Industrial Construction">
+                            <span class="font-[600] text-[18px]/[27px] text-[#232323]">Industrial Construction</span>
+                        </h2>
+                        <p class="font-[500] text-[16px]/[26px] text-[#000000] max-w-[326px]">
+                            Keep your equipment running smoothly
+                            with our expert maintenance and repair
+                            services. Quick fixes, minimal downtime!
+                        </p>
+                    </div>
+                    <button class="card-btn w-[108px] border-b border-b-[#232323] flex items-center gap-[5px]">
+                        <span class="font-[600] text-[16px]/[26px] text-[#000000]">Read More</span>
+                        <img src="./assets/svgs/forward-arrow.svg" alt="read-more">
+                    </button>
+                </div>
+                <!-- 5th card -->
+                <div
+                    class="card max-w-[376px] bg-[#fff] rounded-[1px] border border-[rgba(35,35,35,0.09)] pt-[45px] pb-[39px] px-[25px] flex flex-col gap-[66px] shadow-service-card ">
+                    <div class="card-content flex flex-col gap-[32px] max-w-[326px]">
+                        <h2 class="flex gap-[13px] items-center">
+                            <img src="./assets/svgs/welding.svg" alt="Welding and Fabrication">
+                            <span class="font-[600] text-[18px]/[27px] text-[#232323]">Welding and Fabrication</span>
+                        </h2>
+                        <p class="font-[500] text-[16px]/[26px] text-[#000000] max-w-[330px]">
+                            Expert welding and fabrication services
+                            for precise and durable metal structures.
+                            Custom solutions crafted to meet your
+                            specific needs.
+                        </p>
+                    </div>
+                    <button class="card-btn w-[108px] border-b border-b-[#232323] flex items-center gap-[5px]">
+                        <span class="font-[600] text-[16px]/[26px] text-[#000000]">Read More</span>
+                        <img src="./assets/svgs/forward-arrow.svg" alt="read-more">
+                    </button>
+                </div>
+                <!-- 6th card  -->
+                <div
+                    class="card max-w-[376px] bg-[#fff] rounded-[1px] border border-[rgba(35,35,35,0.09)] pt-[45px] pb-[39px] px-[25px] flex flex-col gap-[66px] shadow-service-card ">
+                    <div class="card-content flex flex-col gap-[32px] max-w-[326px]">
+                        <h2 class="flex gap-[13px] items-center">
+                            <img src="./assets/svgs/welding.svg" alt="Gear Manufacturing">
+                            <span class="font-[600] text-[18px]/[27px] text-[#232323]">Gear Manufacturing</span>
+                        </h2>
+                        <p class="font-[500] text-[16px]/[26px] text-[#000000] max-w-[330px]">
+                            Expert welding and fabrication services
+                            for precise and durable metal structures.
+                            Custom solutions crafted to meet your
+                            specific needs.
+                        </p>
+                    </div>
+                    <button class="card-btn w-[108px] border-b border-b-[#232323] flex items-center gap-[5px]">
+                        <span class="font-[600] text-[16px]/[26px] text-[#000000]">Read More</span>
+                        <img src="./assets/svgs/forward-arrow.svg" alt="read-more">
+                    </button>
+                </div>
+            </div>
+
+            <button
+                class="service-btn rounded-[1px] py-[10px] px-[30px] bg-[#232323] flex items-center w-[147px] mx-auto">
+                <span class="font-[500] text-[16px]/[24px] text-[#fff] w-[63px]">View All</span>
+                <img src="./assets/svgs/arrow-right.svg" alt="">
+            </button>
+
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: "#da373d",
+                    },
+                    gap: {
+                        'max-custom': 'max(50px, 200px)', // Create a custom max-gap
+                    },
+                    boxShadow: {
+                        'service-card': '-3px 4px 4px 0px #0000000F'
+                    }
+                },
+            },
+        };
+    </script>
+
+
+    <script src="./velot.js"></script>
+</body>
+
+</html>
+
+<!-- https://www.figma.com/design/bZQY5hP8m5iMUN
+ fj35sX4T/TFC-Assignment-1?node-id=1-11&t=eAzPxPcR2GuNyxgd-1 -->
+
+<!-- box-shadow: -3px 4px 4px 0px #0000000F; -->
