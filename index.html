@@ -4,12 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="./velot.css"> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0
-   ,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="./velot.css"> -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./velot.css">
     <title>VELOT</title>
@@ -28,7 +22,7 @@
                 </h1>
             </div>
 
-            <ul class="nav-links flex items-center gap-[23px]">
+            <ul class="nav-links hidden lg:flex items-center gap-[23px]">
                 <li class="p-[10px]"><a href="#" class="active text-[#232323] font-[500] text-[16px]/[24px]">Home</a>
                 </li>
                 <li class="p-[10px]"><a href="#services"
@@ -48,7 +42,7 @@
                         <img src="./assets/svgs/search.svg" alt="search-icon" class="">
                     </a></li>
             </ul>
-            <div id="navbar" class="navbar p-[10px] hidden">
+            <div id="navbar" class="navbar p-[10px] flex lg:hidden">
                 <img src="./assets/svgs/bar.svg" alt="bar" class="w-[30px] h-[30px]">
             </div>
         </nav>
@@ -133,7 +127,7 @@
 
         <section id="services" class="mt-[185px] flex flex-col gap-[88px] ">
             <!-- <img src="./assets/imgs/velot-Background.png" alt=""> -->
-            <div class="service-text flex flex-col gap-[49px]">
+            <div class="service-text flex flex-col gap-[49px]/[65px]">
                 <h1 class="service-title font-[600] text-[47px]/[70.5px] text-center text-[#000000]">
                     Our Services
                 </h1>
@@ -273,7 +267,79 @@
             </button>
 
         </section>
+
+        <section id="projects" class="mt-[88px] py-[80px] px-[70px] bg-[#F8F8F3]">
+            <div class="projects-content flex flex-col gap-[73px]">
+                <h1 class="projects-title font-[600] text-[40px] text-center">Our Recent Projects</h1>
+                <div class="projects-cards flex gap-[3%] flex-wrap justify-center">
+                    <!-- card 1 -->
+                    <div class="projects-card projects-card1 ">
+                        <div
+                            class="projects-card-img mt-[40px] bg-[url('./assets/imgs/project-card1.png')] bg-no-repeat bg-cover h-[400px] max-w-[483px] flex items-end">
+                            <div class="projects-card-text py-[20px] pl-[15px] pr-[30px] bg-[rgba(0,0,0,0.55)]">
+                                <p class="font-[500] text-[10px]/[15px] text-[#fff]">
+                                    Comprehensive Vehicle Repair and Maintenance
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="projects-card projects-card2 ">
+                        <div
+                            class="projects-card-img bg-[url('./assets/imgs/project-card2.png')] bg-no-repeat bg-cover h-[400px] max-w-[483px] flex items-end">
+                            <div class="projects-card-text py-[20px] pl-[15px] pr-[30px] bg-[rgba(0,0,0,0.55)]">
+                                <p class="font-[500] text-[10px]/[15px] text-[#fff]">
+                                    Comprehensive Vehicle Repair and Maintenance
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="projects-card projects-card3 ">
+                        <div
+                            class="projects-card-img mt-[40px] bg-[url('./assets/imgs/project-card3.png')] bg-no-repeat bg-cover h-[400px] max-w-[483px] flex items-end">
+                            <div class="projects-card-text py-[20px] pl-[15px] pr-[30px] bg-[rgba(0,0,0,0.55)]">
+                                <p class="font-[500] text-[10px]/[15px] text-[#fff]">
+                                    Comprehensive Vehicle Repair and Maintenance
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-pagination flex justify-center">
+                    <img src="./assets/svgs/project-pagination.svg" alt="pagination">
+                </div>
+            </div>
+        </section>
     </div>
+    <section id="enquiry" class="bg-[#000] max-w-[1600px]">
+        <div
+            class="enquiry-div bg-[url('./assets/imgs/enquiry.png')] mx-auto bg-cover bg-no-repeat max-w-[1440px] h-[800px] max-h-[] py-[70px]">
+            <div class="enquiry-content flex flex-col gap-[40px]">
+                <h1 class="enquiry-title font-[600] text-[30px] text-[#fff] text-center">
+                    Make an Enquiry
+                </h1>
+                <form id="enquiry-form" action="" name="enquiry-form"
+                    class="bg-[#fff] p-[30px] max-w-[400px] h-[500px] mx-auto">
+                    <p class="form-header text-center font-[400] text-[12px] text-[#232323] max-w-[230px] p-[10px]">
+                        Fill all information details to consult
+                        with us to get sevices from us
+                    </p>
+                    <div class="form-div pt-[31px] px-[35px] pb-[42px] flex flex-col gap-[29px]">
+                        <div class="form-name flex items-center gap-[10px]">
+                            <div class="firstname">
+                                <label for="firstname" class="font-[400] text-[16px]">Firstname</label><br>
+                                <input type="text" name="firstname"
+                                    class="w-[247px] h-[45px] rounded bg-[rgba(217,217,217,0.64)]">
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
 
 
 
@@ -301,7 +367,7 @@
     </script>
 
 
-    <script src="./velot.js"></script>
+    <!-- <script src="./velot.js"></script> -->
 </body>
 
 </html>
