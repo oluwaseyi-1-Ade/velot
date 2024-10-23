@@ -320,18 +320,40 @@
                     Make an Enquiry
                 </h1>
                 <form id="enquiry-form" action="" name="enquiry-form"
-                    class="bg-[#fff] p-[30px] max-w-[400px] h-[500px] mx-auto">
-                    <p class="form-header text-center font-[400] text-[12px] text-[#232323] max-w-[230px] p-[10px]">
+                    class="bg-[#fff] p-[10px] md:p-[20px] w-[80%] sm:w-[70%] md:w-[60%] lg:w-[40%] h-auto mx-auto">
+                    <p
+                        class="form-header text-center font-[400] text-[12px] text-[#232323] w-full  md:w-[70%] lg:max-w-[230px] p-[10px] mx-auto">
                         Fill all information details to consult
                         with us to get sevices from us
                     </p>
-                    <div class="form-div pt-[31px] px-[35px] pb-[42px] flex flex-col gap-[29px]">
-                        <div class="form-name flex items-center gap-[10px]">
-                            <div class="firstname">
-                                <label for="firstname" class="font-[400] text-[16px]">Firstname</label><br>
+                    <div class="form-div pt-[31px] px-[10px] pb-[42px] flex flex-col gap-[29px]">
+                        <div class="form-name flex flex-col sm:flex-row items-center gap-[6%]">
+                            <div class="firstname w-full sm:w-[47%]">
+                                <label for="firstname"
+                                    class="font-[400] text-[16px] text-[#232323]">Firstname</label><br>
                                 <input type="text" name="firstname"
-                                    class="w-[247px] h-[45px] rounded bg-[rgba(217,217,217,0.64)]">
+                                    class="w-full h-[45px] rounded bg-[rgba(217,217,217,0.64)] p-1">
                             </div>
+                            <div class="lastname w-full sm:w-[47%]">
+                                <label for="lastname" class="font-[400] text-[16px] text-[#232323]">Lastname</label><br>
+                                <input type="text" name="lastname"
+                                    class="w-full h-[45px] rounded bg-[rgba(217,217,217,0.64)] px-[10px]">
+                            </div>
+                        </div>
+                        <div class="form-inquiry flex flex-col gap-[10px]">
+                            <label for="inquiry" class="font-[400] text-[16px] text-[#232323]">What Your inquiry about
+                            </label>
+                            <!-- <input type="text" name="inquiry"
+                                class="w-[100%] h-[83px] rounded bg-[rgba(217,217,217,0.64)] px-[10px] outline-none"> -->
+                            <textarea name="inquiry" id="inquiry-text"
+                                class="w-full h-[83px] rounded bg-[rgba(217,217,217,0.64)] px-[10px] outline-none"></textarea>
+                        </div>
+                        <div class="form-question">
+                            <label for="question" class="font-[400] text-[16px] text-[#232323]">Ask Question from Us
+                                (optional)</label>
+                            <!-- <input type="text" name="question" class="w-[100%] h-[83px] rounded bg-[rgba(217,217,217,0.64)] p-1> -->
+                            <textarea name="question" id="question-text"
+                                class="w-full h-[120px] rounded bg-[rgba(217,217,217,0.64)] px-[10px] outline-none"></textarea>
                         </div>
 
                     </div>
@@ -353,18 +375,13 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: "#da373d",
-                    },
-                    gap: {
+                        clifford: " #da373d",
+                    }, gap: {
                         'max-custom': 'max(50px, 200px)', // Create a custom max-gap
-                    },
-                    boxShadow: {
-                        'service-card': '-3px 4px 4px 0px #0000000F'
-                    }
+                    }, boxShadow: { 'service-card': '-3px 4px 4px 0px #0000000F' }
                 },
             },
-        };
-    </script>
+        }; </script>
 
 
     <!-- <script src="./velot.js"></script> -->

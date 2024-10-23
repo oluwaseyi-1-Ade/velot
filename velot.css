@@ -37,12 +37,16 @@ nav ul li a:active {
   #hero {
     gap: 50px;
   }
+
+  .hero-box1 {
+    gap: 25px;
+  }
   #hero-content-title {
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 40px;
   }
   .hero-img {
-    height: 700px;
+    height: 550px;
   }
   .hero-box2 {
     width: 75%;
@@ -57,9 +61,12 @@ nav ul li a:active {
   .hero-img {
     height: 500px;
   }
-  .hero-box2 {
-    width: 75%;
+  .hero-box1 {
+    gap: 20px;
   }
+  /* .hero-box2 {
+    width: 75%;
+  } */
   .hero-welcome {
     padding: 10px 25px;
   }
