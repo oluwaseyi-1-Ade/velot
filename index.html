@@ -47,7 +47,7 @@
             </div>
         </nav>
 
-        <section id="hero" class="flex items-center justify-between mt-[66px] gap-max-custom">
+        <section id="hero" class="flex items-center justify-between mt-[66px] gap-max-custom font-[Poppins]">
             <div class="hero-box1 flex flex-col gap-[50px]">
                 <div class="hero-welcome py-[10px] px-[36px] rounded-[1px] bg-[#232323] w-[fit-content]">
                     <p class="font-[Poppins] font-[700] text-[16px]/[24px] text-[#FFFFFF]">
@@ -77,7 +77,7 @@
             </div>
         </section>
 
-        <section id="status" class="bg-[#000] ">
+        <section id="status" class="bg-[#000] font-[Poppins]">
             <div class="status-content bg-[url(./assets/imgs/status-bg.png)] p-[20px]">
                 <div id="status-cards" class="flex flex-wrap justify-center gap-[43px]">
                     <div
@@ -125,7 +125,7 @@
 
         </section>
 
-        <section id="services" class="mt-[185px] flex flex-col gap-[88px] ">
+        <section id="services" class="mt-[185px] flex flex-col gap-[88px] font-[Poppins]">
             <!-- <img src="./assets/imgs/velot-Background.png" alt=""> -->
             <div class="service-text flex flex-col gap-[49px]/[65px]">
                 <h1 class="service-title font-[600] text-[47px]/[70.5px] text-center text-[#000000]">
@@ -268,14 +268,14 @@
 
         </section>
 
-        <section id="projects" class="mt-[88px] py-[80px] px-[70px] bg-[#F8F8F3]">
-            <div class="projects-content flex flex-col gap-[73px]">
-                <h1 class="projects-title font-[600] text-[40px] text-center">Our Recent Projects</h1>
-                <div class="projects-cards flex gap-[3%] flex-wrap justify-center">
+        <section id="projects" class="mt-[88px] py-[40px] md:py-[80px] px-[70px] bg-[#F8F8F3] font-[Poppins]">
+            <div class="projects-content flex flex-col gap-[20px] lg:gap-[73px]">
+                <h1 class="projects-title font-[600] text-[20px] md:text-[40px] text-center">Our Recent Projects</h1>
+                <div class="projects-cards flex gap-[40px] lg:gap-[3%] flex-wrap justify-center">
                     <!-- card 1 -->
                     <div class="projects-card projects-card1 ">
                         <div
-                            class="projects-card-img mt-[40px] bg-[url('./assets/imgs/project-card1.png')] bg-no-repeat bg-cover h-[400px] max-w-[483px] flex items-end">
+                            class="projects-card-img lg:mt-[40px] bg-[url('./assets/imgs/project-card1.png')] bg-no-repeat bg-cover h-[400px] max-w-[483px] flex items-end">
                             <div class="projects-card-text py-[20px] pl-[15px] pr-[30px] bg-[rgba(0,0,0,0.55)]">
                                 <p class="font-[500] text-[10px]/[15px] text-[#fff]">
                                     Comprehensive Vehicle Repair and Maintenance
@@ -297,7 +297,7 @@
                     <!-- card 3 -->
                     <div class="projects-card projects-card3 ">
                         <div
-                            class="projects-card-img mt-[40px] bg-[url('./assets/imgs/project-card3.png')] bg-no-repeat bg-cover h-[400px] max-w-[483px] flex items-end">
+                            class="projects-card-img lg:mt-[40px] bg-[url('./assets/imgs/project-card3.png')] bg-no-repeat bg-cover h-[400px] max-w-[483px] flex items-end">
                             <div class="projects-card-text py-[20px] pl-[15px] pr-[30px] bg-[rgba(0,0,0,0.55)]">
                                 <p class="font-[500] text-[10px]/[15px] text-[#fff]">
                                     Comprehensive Vehicle Repair and Maintenance
@@ -314,7 +314,7 @@
     </div>
     <section id="enquiry" class="bg-[#000] max-w-[1600px]">
         <div
-            class="enquiry-div bg-[url('./assets/imgs/enquiry.png')] mx-auto bg-cover bg-no-repeat max-w-[1440px] h-[800px] max-h-[] py-[70px]">
+            class="enquiry-div bg-[url('./assets/imgs/enquiry.png')] mx-auto bg-cover bg-no-repeat max-w-[1440px] h-[700px] py-[30px] lg:py-[70px]">
             <div class="enquiry-content flex flex-col gap-[40px]">
                 <h1 class="enquiry-title font-[600] text-[30px] text-[#fff] text-center">
                     Make an Enquiry
@@ -327,7 +327,7 @@
                         with us to get sevices from us
                     </p>
                     <div class="form-div pt-[31px] px-[10px] pb-[42px] flex flex-col gap-[29px]">
-                        <div class="form-name flex flex-col sm:flex-row items-center gap-[6%]">
+                        <div class="form-name flex flex-col sm:flex-row items-center gap-[16px] sm:gap-[6%]">
                             <div class="firstname w-full sm:w-[47%]">
                                 <label for="firstname"
                                     class="font-[400] text-[16px] text-[#232323]">Firstname</label><br>
@@ -346,14 +346,14 @@
                             <!-- <input type="text" name="inquiry"
                                 class="w-[100%] h-[83px] rounded bg-[rgba(217,217,217,0.64)] px-[10px] outline-none"> -->
                             <textarea name="inquiry" id="inquiry-text"
-                                class="w-full h-[83px] rounded bg-[rgba(217,217,217,0.64)] px-[10px] outline-none"></textarea>
+                                class="w-full h-[83px] rounded bg-[rgba(217,217,217,0.64)] p-[10px] outline-none"></textarea>
                         </div>
                         <div class="form-question">
                             <label for="question" class="font-[400] text-[16px] text-[#232323]">Ask Question from Us
                                 (optional)</label>
                             <!-- <input type="text" name="question" class="w-[100%] h-[83px] rounded bg-[rgba(217,217,217,0.64)] p-1> -->
                             <textarea name="question" id="question-text"
-                                class="w-full h-[120px] rounded bg-[rgba(217,217,217,0.64)] px-[10px] outline-none"></textarea>
+                                class="w-full h-[120px] rounded bg-[rgba(217,217,217,0.64)] p-[10px] outline-none"></textarea>
                         </div>
 
                     </div>
@@ -363,6 +363,84 @@
         </div>
     </section>
 
+
+    <section id="review"
+        class="bg-[#fff] w-[90%] max-w-[1440px] my-[50px] flex flex-col gap-[25px] lg:gap-[71px] mx-auto">
+        <h1 class="review-title font-[600] text-[25px] lg:text-[40px] text-[#000] text-center font-[Poppins]">
+            Customer Review
+        </h1>
+        <div class="review-cards flex flex-wrap justify-center gap-[20px] md:gap-[3%] lg:justify-between">
+            <!-- first review card  -->
+            <div
+                class="review-card w-full md:w-[31%] rounded-[10px] border border-[rgba(35,35,35,0.41)] text-[#fff] pt-[15px] px-[20px] lg:pt-[22px] lg:pb-[14px] lg:px-[35px]">
+                <div class="review-card-content flex flex-col gap-[5px] md:gap-[18px]">
+                    <div class="review-card-header flex items-center gap-[10px] md:gap-[14px]">
+                        <img src="./assets/imgs/review.png" alt="Customer" class="w-[60px] h-[60px]">
+                        <h1 class="customer-name flex flex-col">
+                            <span class=" text-[#000] font-[600] text-[16px]"> John Doe</span>
+
+                            <img src="./assets/svgs/review-star.svg" alt="">
+                        </h1>
+                    </div>
+                    <p class="font-[500] font-[Quicksand] text-[14px] md:text-[18px] text-[#000]">
+                        Quick and efficient, with fantastic
+                        attention to detail. Very satisfied
+                        with their work 👍
+                    </p>
+                </div>
+                <p class="review-card-date font-[Quicksand] font-[600] text-[15px] text-[#000] flex justify-end">
+                    August 2018
+                </p>
+            </div>
+            <!-- second review card  -->
+            <div
+                class="review-card w-full md:w-[31%] rounded-[10px] border border-[rgba(35,35,35,0.41)] text-[#fff] pt-[15px] px-[20px] lg:pt-[22px] lg:pb-[14px] lg:px-[35px]">
+                <div class="review-card-content flex flex-col gap-[5px] md:gap-[18px]">
+                    <div class="review-card-header flex items-center gap-[10px] md:gap-[14px]">
+                        <img src="./assets/imgs/review.png" alt="Customer" class="w-[60px] h-[60px]">
+                        <h1 class="customer-name flex flex-col">
+                            <span class=" text-[#000] font-[600] text-[16px]"> John Doe</span>
+
+                            <img src="./assets/svgs/review-star.svg" alt="">
+                        </h1>
+                    </div>
+                    <p class="font-[500] font-[Quicksand] text-[14px] md:text-[18px] text-[#000]">
+                        Quick and efficient, with fantastic
+                        attention to detail. Very satisfied
+                        with their work 👍
+                    </p>
+                </div>
+                <p class="review-card-date font-[Quicksand] font-[600] text-[15px] text-[#000] flex justify-end">
+                    August 2018
+                </p>
+            </div>
+            <!-- third review card  -->
+            <div
+                class="review-card w-full md:w-[31%] rounded-[10px] border border-[rgba(35,35,35,0.41)] text-[#fff] pt-[15px] px-[20px] lg:pt-[22px] lg:pb-[14px] lg:px-[35px]">
+                <div class="review-card-content flex flex-col gap-[5px] md:gap-[18px]">
+                    <div class="review-card-header flex items-center gap-[10px] md:gap-[14px]">
+                        <img src="./assets/imgs/review.png" alt="Customer" class="w-[60px] h-[60px]">
+                        <h1 class="customer-name flex flex-col">
+                            <span class=" text-[#000] font-[600] text-[16px]"> John Doe</span>
+
+                            <img src="./assets/svgs/review-star.svg" alt="">
+                        </h1>
+                    </div>
+                    <p class="font-[500] font-[Quicksand] text-[14px] md:text-[18px] text-[#000]">
+                        Quick and efficient, with fantastic
+                        attention to detail. Very satisfied
+                        with their work 👍
+                    </p>
+                </div>
+                <p class="review-card-date font-[Quicksand] font-[600] text-[15px] text-[#000] flex justify-end">
+                    August 2018
+                </p>
+            </div>
+        </div>
+        <div class="projects-pagination flex justify-center mt-[10px] md:mt-[5px] lg:mt-0">
+            <img src="./assets/svgs/project-pagination.svg" alt="pagination">
+        </div>
+    </section>
 
 
 
