@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./velot.css">
     <title>VELOT</title>
     <link rel="icon" href="./assets/svgs/logo.svg" type="image/svg+xml">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
+    </style>
 </head>
 
 <body class="scroll-smooth">
@@ -23,20 +26,24 @@
             </div>
 
             <ul class="nav-links hidden lg:flex items-center gap-[23px]">
-                <li class="p-[10px]"><a href="#" class="active text-[#232323] font-[500] text-[16px]/[24px]">Home</a>
+                <li class="p-[10px]"><a href="#"
+                        class="border-b-[2px] border-b-[#232323]  text-[#232323] font-[500] text-[16px]/[24px]">Home</a>
                 </li>
                 <li class="p-[10px]"><a href="#services"
-                        class="text-[#232323] font-[500] text-[16px]/[24px]">Services</a>
+                        class="active:border-b-[2px] active:border-b-[#232323] text-[#232323] font-[500] text-[16px]/[24px]">Services</a>
                 </li>
-                <li class="p-[10px]"><a href="#" class="flex items-center gap-[5px] ">
+                <li class="p-[10px]"><a href="#projects"
+                        class="active:border-b-[2px] active:border-b-[#232323] flex items-center gap-[5px] ">
                         <span class="text-[#232323] font-[500] text-[16px]/[24px]">Projects</span>
                         <img src="../figma-ass/assets/svgs/vector.svg" alt="projects" class="">
                     </a></li>
-                <li class="p-[10px]"><a href="#" class="flex items-center gap-[5px]"><span
+                <li class="p-[10px]"><a href="#"
+                        class="active:border-b-[2px] active:border-b-[#232323] flex items-center gap-[5px]"><span
                             class=" text-[#232323] font-[500] text-[16px]/[24px]">Products</span>
                         <img src="../figma-ass/assets/svgs/vector.svg" alt="products" class="">
                     </a></li>
-                <li class="p-[10px]"><a href="#" class="text-[#232323] font-[500] text-[16px]/[24px]">Contact
+                <li class="p-[10px]"><a href="#footer"
+                        class="active:border-b-[2px] active:border-b-[#232323] text-[#232323] font-[500] text-[16px]/[24px]">Contact
                         Us</a></li>
                 <li class="p-[10px] text-[#232323] rounded-[4px]"><a href="#" class="">
                         <img src="./assets/svgs/search.svg" alt="search-icon" class="">
@@ -334,7 +341,7 @@
                         Fill all information details to consult
                         with us to get sevices from us
                     </p>
-                    <div class="form-div pt-[31px] px-[10px] pb-[42px] flex flex-col gap-[29px]">
+                    <div class="form-div pt-[31px] px-[10px] pb-[25px] flex flex-col gap-[29px]">
                         <div class="form-name flex flex-col sm:flex-row items-center gap-[16px] sm:gap-[6%]">
                             <div class="firstname w-full sm:w-[47%]">
                                 <label for="firstname"
@@ -365,6 +372,11 @@
                         </div>
 
                     </div>
+                    <button
+                        class="form-btn rounded-[1px] py-[10px] px-[51px] bg-[#232323] text-[#fff] font-[Poppins] text-[16px] block mx-auto">
+                        <!-- <input type="submit" name="submit" value="Submit" class="bg-transparent"> -->
+                        Submit
+                    </button>
                 </form>
             </div>
 
@@ -450,7 +462,7 @@
         </div>
     </section>
 
-    <footer
+    <footer id="footer"
         class="bg-[#232323] px-[40px] py-[30px] lg:px-[120px] lg:pt-[150px] lg:pb-[140px] mt-[40px] md:mt-[60px] flex flex-col gap-[30px] md:gap-0">
         <div class="footer-content w-full max-w-[1600px] flex flex-col gap-[50px] md:flex-row lg:gap-[100px]">
             <div class="footer-title flex flex-col gap-[20px] md:w-[53%] lg:w-[50%] xl-w-[45%] lg:gap-[30px]">
