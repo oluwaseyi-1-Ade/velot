@@ -1,17 +1,15 @@
-const navBar = document.getElementById("navbar");
+const navButton = document.getElementById("nav-btn");
 const navLinks = document.getElementsByClassName("nav-links");
 const link = document.getElementsByTagName("li a");
+let dropdown = document.getElementById("dropdown");
 
-navBarClick = () => {
-  if (navLinks[0].classList.contains("hidden")) {
-    navLinks[0].classList.remove("hidden");
-    navLinks[0].classList.add("active");
-  } else {
-    navLinks[0].classList.add("hidden");
-  }
+navButtonClick = () => {
+  dropdown.classList.toggle("active");
+  dropdown.classList.remove(" mt-[-400px]");
+  console.log("ade");
 };
 
-navBar.addEventListener("click", navBarClick);
+navButton.addEventListener("click", navButtonClick);
 
 // let age; //declaration
 // let age1 = 20; //initialization

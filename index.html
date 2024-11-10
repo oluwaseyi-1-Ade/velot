@@ -49,13 +49,24 @@
                         <img src="./assets/svgs/search.svg" alt="search-icon" class="">
                     </a></li>
             </ul>
-            <div id="navbar" class="navbar p-[10px] flex lg:hidden">
+            <div id="nav-btn" class=" p-[10px] flex lg:hidden">
                 <img src="./assets/svgs/bar.svg" alt="bar" class="w-[30px] h-[30px]">
             </div>
+
+            <div id="dropdown" class="bg-[#999] absolute mt-[-400px] right-5 w-[230px] py-6 rounded-xl">
+                <ul class="text-white">
+                    <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#">Home</a></li>
+                    <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#services">Services</a></li>
+                    <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#projects">Projects</a></li>
+                    <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#">Products</a></li>
+                    <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
         </nav>
     </div>
     <section id="hero"
-        class="w-[90%] max-w-[1600px] font-[Poppins] items-center ml-auto mt-[66px] md:gap-[70px] lg:justify-between flex flex-col gap-[50px] md:flex-row ">
+        class="w-[90%] max-w-[1900px] font-[Poppins] items-center ml-auto mt-[66px] md:gap-[70px] lg:justify-between flex flex-col gap-[50px] md:flex-row ">
         <div class="hero-box1 flex flex-col gap-[30px] md:w-[55%] lg:gap-[50px]">
             <div class="hero-welcome py-[10px] px-[26px] md:px-[36px] rounded-[1px] bg-[#232323] w-[fit-content]">
                 <p
@@ -84,7 +95,7 @@
         </div>
         <div class="hero-box2 md:w-[45%]">
             <img src="./assets/imgs/hero-img.png" alt="hero-img"
-                class="hero-img w-[80%] mx-auto md:ml-auto h-[530px] sm:w-[500px] sm:h-[580px] md:h-[630px] lg:h-[730px]">
+                class="hero-img w-full mx-auto md:mx-0 md:ml-auto h-[530px] sm:w-[500px] sm:h-[580px] md:h-[630px] lg:h-[730px]">
         </div>
     </section>
 

@@ -1,13 +1,4 @@
 .active {
-  background-color: rgb(160, 156, 156);
-  z-index: 100;
-  width: 300px;
-  height: auto;
-  padding: 20px;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  right: 10vw;
-  top: 10vh;
+  margin-top: 300px;
+  transition: ease-in-out 0.3s;
 }
