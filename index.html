@@ -49,17 +49,18 @@
                         <img src="./assets/svgs/search.svg" alt="search-icon" class="">
                     </a></li>
             </ul>
-            <div id="nav-btn" class=" p-[10px] flex lg:hidden">
+            <div id="nav-btn" class=" p-[10px] cursor-pointer flex lg:hidden">
                 <img src="./assets/svgs/bar.svg" alt="bar" class="w-[30px] h-[30px]">
             </div>
 
-            <div id="dropdown" class="bg-[#999] absolute mt-[-400px] right-5 w-[230px] py-6 rounded-xl">
-                <ul class="text-white">
+            <div id="dropdown"
+                class="bg-[#999] transform translate-y-[-400px] transition-transform ease-out duration-500 absolute right-5 w-[230px] py-6 rounded-xl">
+                <ul id="dropdown-links" class="text-white select-none">
                     <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#">Home</a></li>
                     <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#services">Services</a></li>
                     <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#projects">Projects</a></li>
                     <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#">Products</a></li>
-                    <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#">Contact Us</a></li>
+                    <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#footer">Contact Us</a></li>
                 </ul>
             </div>
 
@@ -556,7 +557,7 @@
         }; </script>
 
 
-    <!-- <script src="./velot.js"></script> -->
+    <script src="./velot.js"></script>
 </body>
 
 </html>
