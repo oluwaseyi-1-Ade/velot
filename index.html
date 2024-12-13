@@ -49,18 +49,22 @@
                         <img src="./assets/svgs/search.svg" alt="search-icon" class="">
                     </a></li>
             </ul>
-            <div id="nav-btn" class=" p-[10px] cursor-pointer flex lg:hidden">
+            <div id="nav-btn" class=" p-[10px] cursor-pointer lg:hidden">
                 <img src="./assets/svgs/bar.svg" alt="bar" class="w-[30px] h-[30px]">
             </div>
-
+            <!-- translate-y-[-400px] -->
             <div id="dropdown"
-                class="bg-[#999] transform translate-y-[-400px] transition-transform ease-out duration-500 absolute right-5 w-[230px] py-6 rounded-xl">
+                class="bg-[#999] transform translate-y-[-400px]  transition-transform ease-out duration-500 absolute right-5 w-[230px] py-6 rounded-xl">
                 <ul id="dropdown-links" class="text-white select-none">
                     <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#">Home</a></li>
                     <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#services">Services</a></li>
                     <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#projects">Projects</a></li>
                     <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#">Products</a></li>
                     <li class="py-2 px-6 hover:bg-[#000] cursor-pointer"><a href="#footer">Contact Us</a></li>
+                    <li class="px-6 mt-2 cursor-pointer h-[30px] flex mx-3 bg-white"> <input type="text"
+                            placeholder="search..." class="w-[80%] p-1 outline-none bg-transparent">
+                        <img src="./assets/svgs/search-icon.svg" alt="search-icon" class="h-[30px] text-black">
+                    </li>
                 </ul>
             </div>
 
